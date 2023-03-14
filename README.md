@@ -1,5 +1,5 @@
-# `tf-sydnod-infrastructure-common`
+# `renovate-config`
 
-This is the common infrastructure for Sydnod Ltd. It serves the following orchestrating functions:
+This is the common Renovate Bot configuration for Sydnod Ltd. It serves the following orchestrating functions:
 
-* Provision of common infrastructure resources
+* Standardize Renovate Bot
