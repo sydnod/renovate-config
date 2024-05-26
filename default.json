@@ -5,6 +5,7 @@
   "labels": ["dependencies"],
   "automergeStrategy": "squash",
   "automergeSchedule": "after 4am and before 5am",
+  "timezone": "Europe/Amsterdam",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
