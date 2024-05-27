@@ -4,13 +4,16 @@
   "baseBranches": ["main"],
   "labels": ["dependencies"],
   "automergeStrategy": "squash",
-  "automergeSchedule": "after 4am and before 5am",
-  "timezone": "Europe/Amsterdam",
+  "automergeSchedule": "after 2am and before 5am every weekday",
+  "automergeType": "pr",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true,
       "stabilityDays": 7
     }
-  ]
+  ],
+  "platformAutomerge": true,
+  "schedule": "after 2am and before 5am every weekday",
+  "timezone": "Europe/Amsterdam"
 }
